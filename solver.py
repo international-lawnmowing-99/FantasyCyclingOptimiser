@@ -8,7 +8,7 @@ cwd = os.getcwd()  # Get the current working directory (cwd)
 files = os.listdir(cwd)  # Get all the files in that directory
 print("Files in %r: %s" % (cwd, files))
 
-sheet = openpyxl.load_workbook("/home/alexander/cycling optimiser/finalFinal.xlsx", data_only=True)['DYN_cyclist']
+sheet = openpyxl.load_workbook("finalFinal.xlsx", data_only=True)['DYN_cyclist']
 
 model = LpProblem("Cycling_Optimiser", LpMaximize)
 
