@@ -6,7 +6,7 @@ HIRSCHI Marc
 LAENGEN Vegard Stake
 MAJKA Rafal
 MCNULTY Brandon
-ROGLIC Primož
+ROGLIC Primoz
 VAN AERT Wout
 GESINK Robert
 KRUIJSWIJK Steven
@@ -25,9 +25,9 @@ VAN BAARLE Dylan
 FROOME Chris
 BOIVIN Guillaume
 GOLDSTEIN Omer
-GREIPEL André
+GREIPEL Andre
 HOLLENSTEIN Reto
-MARTIN Daniel
+MARTIN Dan
 WOODS Michael
 ZABEL Rick
 NIBALI Vincenzo
@@ -35,7 +35,7 @@ BERNARD Julien
 ELISSONDE Kenny
 MOLLEMA Bauke
 PEDERSEN Mads
-SKUJINŠ Toms
+SKUJINS Toms
 STUYVEN Jasper
 THEUNS Edward
 ALAPHILIPPE Julian
@@ -45,11 +45,11 @@ CATTANEO Mattia
 CAVENDISH Mark
 DECLERCQ Tim
 DEVENYNS Dries
-MØRKØV Michael
-LÓPEZ Miguel Ángel
+MORKOV Michael
+LOPEZ Miguel Angel
 ARCAS Jorge
 ERVITI Imanol
-GARCÍA CORTINA Iván
+GARCIA CORTINA Ivan
 MAS Enric
 SOLER Marc
 VALVERDE Alejandro
@@ -60,23 +60,23 @@ KELDERMAN Wilco
 KONRAD Patrick
 OSS Daniel
 POLITT Nils
-PÖSTLBERGER Lukas
+POSTLBERGER Lukas
 SCHELLING Ide
 GAUDU David
 ARMIRAIL Bruno
-DÉMARE Arnaud
+DEMARE Arnaud
 GUARNIERI Jacopo
 KONOVALOVAS Ignatas
-KÜNG Stefan
+KUNG Stefan
 MADOUAS Valentin
 SCOTSON Miles
 MARTIN Guillaume
-FERNÁNDEZ Rubén
+FERNANDEZ Ruben
 GESCHKE Simon
-HERRADA Jesús
+HERRADA Jesus
 LAPORTE Christophe
 PEREZ Anthony
-PÉRICHON Pierre-Luc
+PERICHON Pierre-Luc
 WALLAYS Jelle
 VAN DER POEL Mathieu
 DILLIER Silvan
@@ -86,7 +86,7 @@ PHILIPSEN Jasper
 RICKAERT Jonas
 SBARAGLI Kristian
 VAKOC Petr
-URÁN Rigoberto
+URAN Rigoberto
 BISSEGGER Stefan
 GUERREIRO Ruben
 HIGUITA Sergio
@@ -94,30 +94,30 @@ VALGREN Michael
 CORT Magnus
 POWLESS Neilson
 RUTSCH Jonas
-COSNEFROY Benoît
+COSNEFROY Benoit
 GODON Dorian
 NAESEN Oliver
 O'CONNOR Ben
-PARET-PEINTRE Aurélien
+PARET-PEINTRE Aurelien
 PETERS Nans
-SCHÄR Michael
+SCHAR Michael
 VAN AVERMAET Greg
 BARGUIL Warren
 BOUHANNI Nacer
 DELAPLACE Anthony
-GESBERT Élie
+GESBERT Elie
 MCLAY Daniel
 QUINTANA Nairo
-RUSSO Clément
+RUSSO Clement
 SWIFT Connor
-KRAGH ANDERSEN Søren
+KRAGH ANDERSEN Soren
 BENOOT Tiesj
 BOL Cees
 DONOVAN Mark
 EEKHOFF Nils
 NIEUWENHUIS Joris
 PEDERSEN Casper
-SÜTTERLIN Jasha
+SUTTERLIN Jasha
 EWAN Caleb
 DE BUYST Jasper
 DE GENDT Thomas
@@ -138,7 +138,7 @@ MATTHEWS Michael
 CHAVES Esteban
 DURBRIDGE Luke
 HAMILTON Lucas
-JANSEN Amund Grøndahl
+JANSEN Amund Grondahl
 JUUL-JENSEN Christopher
 MEZGEC Luka
 YATES Simon
@@ -160,10 +160,10 @@ GOGL Michael
 WALSCHEID Max
 LATOUR Pierre
 BOASSON HAGEN Edvald
-CABOT Jérémy
-DE LA PARTE Víctor
+CABOT Jeremy
+DE LA PARTE Victor
 DOUBEY Fabien
-RODRÍGUEZ Cristián
+RODRIGUEZ Cristian
 SIMON Julien
 TURGIS Anthony
 MEINTJES Louis
@@ -172,7 +172,7 @@ KOCH Jonas
 ROTA Lorenzo
 VAN POPPEL Boy
 VAN POPPEL Danny
-VLIEGEN Loïc
+VLIEGEN Loic
 ZIMMERMANN Georg
 COQUARD Bryan
 BARTHE Cyril

@@ -1,39 +1,48 @@
 from pulp import *
 import openpyxl
-import os
-dir_path = os.path.dirname(os.path.realpath(__file__))
-print(dir_path)
 
-cwd = os.getcwd()  # Get the current working directory (cwd)
-files = os.listdir(cwd)  # Get all the files in that directory
-print("Files in %r: %s" % (cwd, files))
-
-sheet = openpyxl.load_workbook("finalFinal.xlsx", data_only=True)['DYN_cyclist']
+sheet = openpyxl.load_workbook("SelectedRiders.xlsx", data_only=True)['DYN_cyclist']
 
 model = LpProblem("Cycling_Optimiser", LpMaximize)
 
 function = ""
 costConstraint = ""
+allRounderConstraint = ""
 sprinterContraint = ""
 climberConstraint = ""
 unclassedConstrant = ""
 numberOfRidersConstraint = ""
 variables = []
+
 for i in range(184):
-    print(str(i))
     variable = LpVariable(str(i), 0,1,LpInteger)
     variables.append(variable)
-    print(type(sheet.cell(i+2, 16).value))
-    print(sheet.cell(i+2, 16).value)
 
-
-    function +=  sheet.cell(i+2, 63).value * variable
-    costConstraint += int(sheet.cell(i+2, 16).value) * variable
+    function +=  sheet.cell(i+2, 103).value * variable
+    costConstraint += int(sheet.cell(i+2, 101).value) * variable
     numberOfRidersConstraint += variable
 
+    if sheet.cell(i+2, 100).value == "All Rounder":
+        allRounderConstraint += variable
+    elif sheet.cell(i+2, 100).value == "Climber":
+        climberConstraint += variable
+    elif sheet.cell(i+2, 100).value == "Unclassed":
+        unclassedConstrant += variable
+    elif sheet.cell(i+2, 100).value == "Sprinter":
+        sprinterContraint += variable
+    else:
+        print( "error! " + str(sheet.cell(i+2, 2).value) + " has no class! " + str(sheet.cell(i+2, 100).value))
+
 model += function
+
 model += (costConstraint <= 100)
-model += (numberOfRidersConstraint == 8)
+model += (numberOfRidersConstraint == 9)
+model += (sprinterContraint >= 1)
+model += (climberConstraint >= 2)
+model += (unclassedConstrant >= 3)
+model += (allRounderConstraint >= 2)
+
+
 print(type(function))
 
 
@@ -46,4 +55,4 @@ print("Optimal Solution to the problem: ", value(model.objective))
 print ("Individual decision_variables: ")
 for v in model.variables():
     if v.varValue == 1:
-        print(sheet.cell(int(v.name) + 2, 1).value, " ", sheet.cell(int(v.name) + 2, 2).value)
+        print(sheet.cell(int(v.name) + 2, 2).value, " ", sheet.cell(int(v.name) + 2, 3).value, " ", sheet.cell(int(v.name) + 2, 100).value)

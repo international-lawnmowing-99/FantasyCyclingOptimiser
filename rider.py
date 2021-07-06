@@ -9,6 +9,13 @@ class Rider(object):
     acceleration = 0
     resistance = 0
     tt = 0
+    prologue = 0
     downhill = 0
+    recovery = 0
+    endurance = 0
+    cobbles = 0
+
+    riderCategory = -1
 
     timegap = 0
+    totalPoints = 0
