@@ -2,7 +2,7 @@
 
 import requests
 from bs4 import BeautifulSoup
-import Rider
+import rider
 from openpyxl import load_workbook
 from openpyxl.worksheet import worksheet
 from unidecode import unidecode

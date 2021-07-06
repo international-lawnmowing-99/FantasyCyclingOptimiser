@@ -1,4 +1,4 @@
-from Rider import Rider
+from rider import Rider
 from openpyxl import load_workbook
 from unidecode import unidecode
 from openpyxl.worksheet import worksheet

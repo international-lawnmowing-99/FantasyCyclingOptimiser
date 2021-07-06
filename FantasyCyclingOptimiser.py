@@ -1,12 +1,12 @@
-import Scraper
-import CullCyclists
-import Simulate
-import Solver
+import scraper
+import cullCyclists
+import simulate
+import solver
 
 if __name__ == '__main__':
 
-    Scraper.ScrapePCS()
-    Scraper.ScrapeVelogames()
-    CullCyclists.CullCyclists()
-    Simulate.RunTour()
-    
+    scraper.ScrapePCS()
+    scraper.ScrapeVelogames()
+    cullCyclists.CullCyclists()
+    simulate.RunTour()
+    solver.Solve()
