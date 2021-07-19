@@ -15,7 +15,8 @@ class Rider(object):
     endurance = 0
     cobbles = 0
 
-    riderCategory = -1
+    riderCategory = ""
 
     timegap = 0
     totalPoints = 0
+    cost = 0
